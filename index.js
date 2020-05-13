@@ -6,7 +6,7 @@ const isAndroid = Platform.OS === 'android';
 
 export default {
   supportNFC: function() {
-    return (isAndroid ? RNHce.supportNFC : () => ({ support: false; enabled: false }));
+    return (isAndroid ? RNHce.supportNFC : () => ({ support: false, enabled: false }));
   },
 
   listenNFCStatus: function(callback) {
