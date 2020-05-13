@@ -1,0 +1,16 @@
+{
+  "description": "The host-based card emulation for android",
+  "homepage": "https://bitbucket.org/iotriot/react-native-nfc-hce.git",
+  "keywords": [
+    "react-native",
+    "react",
+    "android",
+    "nfc",
+    "hce",
+    "CardEmulation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-nfc-hce",
+  "version": "1.0.0"
+}
